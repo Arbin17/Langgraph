@@ -1,0 +1,5 @@
+langgraph 
+langchain 
+transformers 
+sentence-transformers
+torch
