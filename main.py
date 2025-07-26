@@ -67,6 +67,8 @@ builder.add_edge("segmenter", "responder")
 builder.add_edge("responder", END)
 
 graph = builder.compile()
+mermaid_code = graph.get_graph().draw_mermaid()
+print(mermaid_code)
 output = graph.invoke({"query": "I'm looking for a high-quality premium plan with features."})
 print("Segment:", output["segment"])
 print("Response:", output["response"])
