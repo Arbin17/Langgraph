@@ -33,10 +33,10 @@ python main.py
 ```
 ## LangGraph Flow (MermaidJS)
 graph TD;
-  __start__ --> capture_query;
-  capture_query --> segment_customer;
-  segment_customer --> suggestion;
-  suggestion --> __end__;
+-  __start__ --> capture_query;
+-  capture_query --> segment_customer;
+-  segment_customer --> suggestion;
+-  suggestion --> __end__;
 
 ## License
 This project is licensed under the MIT License.
