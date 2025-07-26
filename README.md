@@ -37,4 +37,6 @@ graph TD;
   capture_query --> segment_customer;
   segment_customer --> suggestion;
   suggestion --> __end__;
-```
+
+## License
+This project is licensed under the MIT License.
